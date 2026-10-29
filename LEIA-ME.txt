@@ -1,0 +1,7 @@
+Planejador MRP/PCP - Bioz Green
+
+Para colocar no ar: siga o documento "Passo a passo: colocar o Planejador no ar e usar no dia a dia".
+Para rodar no seu computador (Windows): dê dois cliques em iniciar_no_windows.bat.
+
+NAO suba planilhas com dados reais para o GitHub: elas são enviadas pelo próprio app.
+Contato: compras@biozgreen.eco.br
