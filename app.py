@@ -28,7 +28,8 @@ from modelo import gerar_modelo_xlsx
 from relatorio_pdf import gerar_pdf_programacao
 
 ASSETS = Path(__file__).parent / "assets"
-LOGO = ASSETS / "logo-bioz-green-small.png"
+LOGO = next((p for p in (ASSETS / "logo-bioz-green-small.png", Path(__file__).parent / "logo-bioz-green-small.png") if p.exists()),
+            ASSETS / "logo-bioz-green-small.png")
 ROTULO_PAPEL = {
     "skus": "SKUs / estoque / meta", "dados_sku": "Caixas e pallets por SKU", "bom": "Estrutura (BOM)",
     "estoque_insumos": "Estoque de insumos", "pedidos": "Pedidos em trânsito", "cadastro": "Cadastro de componentes",
